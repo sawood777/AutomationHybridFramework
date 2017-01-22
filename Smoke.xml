@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+  <test name="SmokeTest">
+    <classes>
+      <class name="testcases.VerifyHomePage"/>
+      <class name="testcases.VerifyPostLoginPage"/>
+      <class name="testcases.VerifyHomePagewithReport"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- SmokeSuite -->
